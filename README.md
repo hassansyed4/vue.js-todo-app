@@ -105,6 +105,17 @@ If deployed using GitHub Pages:
 https://hassansyed4.github.io/vue.js-todo-app/
 ```
 
+To commit and push updates to Live Demo:
+
+```
+git add .
+git commit -m "Update feature"
+git push
+Remove-Item -Recurse -Force .\dist (dict error is coming else ignore it)
+npm run build
+npm run deploy
+```
+
 ---
 
 ## Application Screenshot
