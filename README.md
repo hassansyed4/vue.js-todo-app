@@ -1,6 +1,8 @@
-# Vue ToDo App
+# Vue ToDo Application
 
-A simple and responsive ToDo application built using **Vue.js** that helps users manage daily tasks efficiently. The application allows users to add, complete, and delete tasks with a clean and intuitive interface.
+A simple and responsive **Task Management (ToDo) web application** built using **Vue.js**. The application allows users to create, manage, and track daily tasks in an intuitive interface.
+
+This project demonstrates the use of **Vue components, reactive data binding, and modern frontend styling**.
 
 ---
 
@@ -10,37 +12,52 @@ A simple and responsive ToDo application built using **Vue.js** that helps users
 - Mark tasks as completed
 - Delete tasks
 - Clear completed tasks
-- Responsive and user-friendly interface
-- Real-time task updates using Vue reactivity
+- Responsive and clean user interface
+- Dynamic updates using Vue reactivity
 
 ---
 
 ## Technologies Used
 
 - Vue.js
+- JavaScript (ES6)
 - HTML5
 - CSS3
-- JavaScript
 
 ---
 
 ## Project Structure
 
 ```
-vue-todo-app
+Vue-Todo-App
 │
-├── public
-│   └── index.html
+├── end
 │
-├── src
-│   ├── components
-│   │   └── TaskItem.vue
+├── start
+│   ├── dist
+│   ├── node_modules
+│   ├── public
+│   │   ├── favicon.ico
+│   │   └── index.html
 │   │
-│   ├── App.vue
-│   ├── main.js
-│   └── assets
+│   ├── src
+│   │   ├── assets
+│   │   │   ├── css
+│   │   │   │   └── main.css
+│   │   │   └── logo.png
+│   │   │
+│   │   ├── components
+│   │   │   ├── Task-item.vue
+│   │   │   └── Task.vue
+│   │   │
+│   │   ├── App.vue
+│   │   └── main.js
+│   │
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── vue.config.js
+│   └── Project Image.png
 │
-├── package.json
 └── README.md
 ```
 
@@ -48,31 +65,31 @@ vue-todo-app
 
 ## Installation
 
-Clone the repository
+### 1. Clone the repository
 
 ```
-git clone https://github.com/YOUR_GITHUB_USERNAME/vue-todo-app.git
+git clone https://github.com/YOUR_USERNAME/vue-todo-app.git
 ```
 
-Navigate to the project folder
+### 2. Navigate to project folder
 
 ```
-cd vue-todo-app
+cd vue-todo-app/start
 ```
 
-Install dependencies
+### 3. Install dependencies
 
 ```
 npm install
 ```
 
-Run the development server
+### 4. Run development server
 
 ```
 npm run serve
 ```
 
-The application will run at
+Application will start at:
 
 ```
 http://localhost:8080
@@ -82,52 +99,51 @@ http://localhost:8080
 
 ## Live Demo
 
-You can view the live project here:
+If deployed using GitHub Pages:
 
 ```
-https://YOUR_GITHUB_USERNAME.github.io/vue-todo-app/
+https://hassansyed4.github.io/vue.js-todo-app/
 ```
 
 ---
 
-## Screenshots
-
-_Add screenshots of your application here_
-
-Example:
+## Application Screenshot
 
 ```
-![Todo App Screenshot](Project-image.png)
+![Todo App](Project Image.png)
+<img width="526" height="673" alt="image" src="https://github.com/user-attachments/assets/9629db09-c26f-41d6-8b67-b246af59bcd7" />
+
 ```
 
 ---
 
 ## Learning Outcomes
 
-This project demonstrates:
+Through this project, the following concepts were practiced:
 
-- Vue component-based architecture
-- Reactive data binding
-- Event handling in Vue
-- Frontend UI design using CSS
-- Basic state management for tasks
+- Vue component architecture
+- Data binding and event handling
+- Task state management
+- Frontend UI design with CSS
+- Project structuring in Vue
 
 ---
 
 ## Future Improvements
 
-- Add local storage support
-- Task editing feature
-- Task filtering (All / Completed / Pending)
-- Dark mode support
-- Drag-and-drop task reordering
+Possible enhancements include:
+
+- Local storage for task persistence
+- Edit existing tasks
+- Task filters (All / Completed / Pending)
+- Drag and drop task reordering
+- Dark mode UI
 
 ---
 
 ## Author
 
-**Syed Hassan Ahmed**
-
+Syed Hassan Ahmed  
 Master’s in Data Science  
 University of St. Thomas
 
