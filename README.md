@@ -111,8 +111,6 @@ https://hassansyed4.github.io/vue.js-todo-app/
 
 ```
 ![Todo App](Project Image.png)
-<img width="526" height="673" alt="image" src="https://github.com/user-attachments/assets/9629db09-c26f-41d6-8b67-b246af59bcd7" />
-
 ```
 
 ---
