@@ -18,22 +18,22 @@ export default {
         {
           id: 1,
           title: "Learn Vue JS",
-          completed: true,
+          completed: false,
         },
         {
           id: 2,
           title: "Watch netflix",
-          completed: true,
+          completed: false,
         },
         {
           id: 3,
           title: "Go shopping",
-          completed: true,
+          completed: false,
         },
         {
           id: 4,
           title: "Learn guitar",
-          completed: true,
+          completed: false,
         },
         {
           id: 5,

@@ -4,6 +4,7 @@
       <!-- title -->
       <div class="title">
         <h1>To Do List</h1>
+        <h2>(Vue JS - Syed)</h2>
       </div>
       <!-- form -->
       <div class="form">
@@ -30,6 +31,11 @@
       <!-- pending task -->
       <div class="pendingTasks">
         <span>Pending Tasks: {{ inComplete }}</span>
+      </div>
+      <!-- footer -->
+      <div class="footer">
+        <p>&copy;</p>
+        <p> Developed by Syed Ahmed, 2026. All rights reserved.</p>
       </div>
     </div>
   </div>
