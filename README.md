@@ -1,4 +1,4 @@
-# Vue ToDo Application
+# Vue.js ToDo Application
 
 A simple and responsive **Task Management (ToDo) web application** built using **Vue.js**. The application allows users to create, manage, and track daily tasks in an intuitive interface.
 
